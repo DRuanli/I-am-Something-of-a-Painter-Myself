@@ -2,9 +2,9 @@ import tensorflow as tf
 import numpy as np
 import time
 import os
-from config import CONFIG
-from models import generator_loss, discriminator_loss, calc_cycle_loss, identity_loss
-from utils.visualization import display_progress_bar, generate_images
+from cyclegan_project.config import CONFIG
+from cyclegan_project.models import generator_loss, discriminator_loss, calc_cycle_loss, identity_loss
+from cyclegan_project.utils.visualization import display_progress_bar, generate_images
 
 
 class CycleGANTrainer:

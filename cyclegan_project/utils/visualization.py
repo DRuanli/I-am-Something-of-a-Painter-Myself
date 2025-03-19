@@ -1,7 +1,7 @@
 import tensorflow as tf
 import matplotlib.pyplot as plt
 import os
-from config import CONFIG
+from cyclegan_project.config import CONFIG
 
 
 def display_progress_bar(progress, total, prefix='', length=30):
